@@ -6,7 +6,7 @@ import re
 import argparse
 
 enc = tiktoken.get_encoding("cl100k_base")
-with open('../../secrets.json') as f:
+with open(r'C:\Users\ISYSE03\Desktop\chatGPT_Robotics\ChatGPT-Robot-Manipulation-Prompts/secrets.json') as f:
     credentials = json.load(f)
 
 dir_system = './system'
